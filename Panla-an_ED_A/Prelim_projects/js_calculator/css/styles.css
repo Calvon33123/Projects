@@ -1,0 +1,9 @@
+p{ 
+color: white;    
+font-size: 3rem ;
+text-align: center;
+}
+
+.banner {
+    background-image: url("/Prelim_projects/js_calculator/Aura/rezero-subaru.gif");
+}
