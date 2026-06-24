@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="Stylesheet" href="./css/styles.css">
-<script href="./js/script.js" defer></script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
-<body class="banner">
-    <p>Happy birthday Daniel, do you really think I'd let this day pass quietly?
-I know the kind of power you vibe with, the kind that keeps climbing no matter what
-So, here's your gift, a profile picture wrapped in that same aura
-Use it anywhere, you know the rule, even if the stairs never end we keep climbing</p>
+<body>
+
+    <div class="holder">
+        <h1>Sum Calculator</h1>
+
+        <div class="inputbox">
+            <label>Enter First Number</label>
+            <input type="text" id="num1"/>
+        </div>
+
+        <div class="inputbox">
+            <label>Inter Second Number</label>
+            <input type="text" id="num2"/>
+        </div>
+
+        <div class="btn">  
+            <button onClick="calculateSum()">Calculate Sum</button>
+            <button>Clear</button>
+        </div>
+        <p id="result">This is for the answer</p>
+
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
