@@ -1,17 +1,16 @@
-food="Crabs"
-color="Pink"
-game="Far Cry"
-anime="86"
+name = str(input("Input your name Here: "))
+score = int(input("Enter Score Here: "))
 
 
-
-print()
-print("These are my Favorites!")
-print()
-print(f"My Favorite Food: {food}")
-print(f"My Favorite Color: {color}")
-print(f"My Favorite Game: {game}")
-print(f"My Favorite Anime: {anime}")
-print()
-
-
+if (score >= 95 and score <= 100):
+    print(name + " Your remarks are " +"Excellent")
+elif (score >= 90 and score <= 94):
+    print(name + " Your remarks are " +"Very Good")
+elif (score >= 85 and score <=89):
+    print(name + " Your remarks are " +"Good")
+elif (score >=75 and score <= 84):
+    print(name + " Your remarks are " +"Satisfactory")
+elif (score <=75):
+    print(name + " Your remarks " +"Needs Improvement")
+else:
+    print("Error")
